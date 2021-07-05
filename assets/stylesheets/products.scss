@@ -1,0 +1,82 @@
+#products {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.chooser {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chooser .wrapper {
+    width: 50%;
+}
+
+.product {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.product img {
+    width: 500px;
+}
+
+.product-detail {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-detail .wrapper {
+    width: 80%;
+}
+
+.product-detail .wrapper p {
+    padding-bottom: 15px;
+    color: gray;
+    height: 100px;
+    text-overflow: ellipsis;
+}
+
+.product-detail #car_specification {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
+.car_details {
+    height: 350px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.splide-controls {
+    margin-top: 20px;
+}
+
+i.splide__arrow--next,
+i.splide__arrow--prev {
+    padding: 10px;
+    border-radius: 100px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.splide__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__pagination__page.is-active {
+    background: #0C75FF !important;
+}

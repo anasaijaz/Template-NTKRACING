@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.background {
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+
+#bg-image {
+  width: 100%;
+  filter: blur(100px);
+  -webkit-filter: blur(30px);
+}
+
+/*
+
+HEADER SECTION OF THE PAGE
+
+*/
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  z-index: 100;
+  position: fixed;
+  width: 100vw;
+}
+
+header.overlay {
+  background-color: white;
+  transition-duration: 300ms;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+
+.logo img {
+  height: 30px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 28px;
+  padding-left: 10px;
+  line-height: 2.4rem;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  padding: 10px;
+}
+
+.sections ul {
+  width: 45%;
+  justify-content: space-between;
+}
+
+.logo {
+  flex: 2;
+}
+
+.sections {
+  flex: 7;
+}
+
+.auth-buttons {
+  flex: 2;
+}
+
+.auth-buttons #sign-in {
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  margin-left: 10px;
+  word-wrap: normal;
+}
+
+li.active {
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  transition: 500ms;
+}
+
+section {
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(20px);
+}
+
+section.appear {
+  opacity: 1;
+  transform: translateY(0px);
+}
+/*# sourceMappingURL=main.css.map */

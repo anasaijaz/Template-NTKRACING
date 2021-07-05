@@ -1,0 +1,106 @@
+#contact {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #02044A;
+}
+
+#contact .primary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .primary-container .wrapper {
+  width: 80%;
+}
+
+#contact .primary-container .wrapper p {
+  width: 60%;
+}
+
+#contact .secondary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .secondary-container .wrapper {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background-color: white;
+}
+
+#contact .input-group {
+  background-color: whitesmoke;
+  display: inline-block;
+  border-radius: 4px;
+  width: 100%;
+  border: 2px solid #E4E4EC;
+}
+
+#contact input {
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 5px;
+  width: 200px;
+  padding: 15px 0px;
+}
+
+#contact .input-group i {
+  padding: 0px 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+#contact textarea {
+  width: 100%;
+  outline: transparent;
+  border-radius: 4px;
+  border: 2px solid #E4E4EC;
+}
+
+#contact .input-label {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#contact .send {
+  margin: 5px 0px;
+  float: right;
+  background-color: #0C75FF;
+  color: white;
+}
+
+#contact .send:hover {
+  background-color: black;
+}
+
+#contact .input-group:hover {
+  color: #0C75FF;
+}
+
+#contact .input-group:hover {
+  border: 2px solid #0C75FF;
+}
+
+#contact .info {
+  padding-bottom: 50px;
+  color: white;
+}
+
+#contact .info p {
+  font-weight: 300;
+}
+
+#contact .contact {
+  font-size: 16px;
+}
+
+#contact .contact i {
+  font-size: 22px;
+}
+/*# sourceMappingURL=contact.css.map */

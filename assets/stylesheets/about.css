@@ -1,0 +1,41 @@
+#contact-us .wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#contact-us .image-container {
+  background-color: red;
+  overflow: hidden;
+}
+
+#contact-us .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+#contact-us .text-container {
+  position: relative;
+}
+
+#contact-us h1 {
+  font-size: 72px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+#contact-us p {
+  line-height: 1.6rem;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+
+#contact-us .floating-contact {
+  width: 40vw;
+  position: absolute;
+  background-color: royalblue;
+  padding: 40px;
+  bottom: 0;
+}
+/*# sourceMappingURL=about.css.map */
