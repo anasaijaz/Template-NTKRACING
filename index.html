@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <meta name="google" content="notranslate">
 
+    <script src="./assets/javascript/lazyload.js"></script>
 
     <script src="./assets/javascript/slider.js"></script>
     <script src="./assets/javascript/main.js"></script>
@@ -93,9 +94,14 @@
 <body>
 
 
-    <audio autoplay>
-        <source src="./assets/audio/car.mp3" type="audio/mpeg">
+
+
+    <iframe src="./assets/audio/whale.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+
+    <audio id="audio" autoplay>
+        <source id="sound" src="./assets/audio/whale.mp3" type="audio/mpeg">
     </audio>
+
 
     <section data-index="0" id="hero">
         <div class="background">
