@@ -13,7 +13,7 @@ function main() {
     let bottomsheet = document.querySelector("#contact .secondary-container")
     let close = document.querySelector(".close")
 
-    bottomsheet.addEventListener("click", () => {
+    close.addEventListener("click", () => {
         bottomsheet.classList.remove("visible")
     })
 
