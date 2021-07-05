@@ -40,7 +40,7 @@ function initialize(splide, product_list, car_name, car_description, car_specifi
 
     for (let car of DUMMY_DATA) {
         product_list.insertAdjacentHTML("beforeend", `<p data-car_id=${car.id}>${car.car_name}</p>`)
-        splide.add(`<li class="splide__slide"><img src='${car.car_image_uri}' /></li>`);
+        splide.add(`<li class="splide__slide"><img class="product-image" src='${car.car_image_uri}' /></li>`);
 
     }
 

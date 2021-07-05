@@ -9,6 +9,18 @@ document.addEventListener("DOMContentLoaded", main)
 
 function main() {
 
+    let bottomsheethandler = document.getElementById("bottomsheetbutton");
+    let bottomsheet = document.querySelector("#contact .secondary-container")
+    let close = document.querySelector(".close")
+
+    bottomsheet.addEventListener("click", () => {
+        bottomsheet.classList.remove("visible")
+    })
+
+    bottomsheethandler.addEventListener("click", () => {
+        bottomsheet.classList.add("visible")
+
+    })
 
 
 

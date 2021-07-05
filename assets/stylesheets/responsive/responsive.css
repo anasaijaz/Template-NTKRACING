@@ -1,0 +1,120 @@
+@media (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
+  .auth-buttons {
+    flex: 3;
+  }
+  .sections {
+    display: none;
+  }
+  .logo {
+    padding-left: 5px;
+  }
+  #hero {
+    width: 100vw;
+  }
+  #hero .heading {
+    font-size: 42px;
+    line-height: 42px;
+  }
+  #contact {
+    overflow: hidden;
+  }
+  #contact .secondary-container {
+    position: absolute;
+    width: 100vw;
+    padding-top: 40px;
+    bottom: -100vh;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .secondary-container.visible {
+    bottom: -10px;
+  }
+  #close-button {
+    display: block;
+    margin-left: auto;
+  }
+  #products {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  #products .product img {
+    width: 80%;
+  }
+  #bottomsheetbutton {
+    display: inline-block;
+  }
+  #products .chooser {
+    padding: 0px;
+    justify-content: flex-start;
+  }
+  #products .chooser .wrapper {
+    width: 100%;
+  }
+  div.divider {
+    margin: auto;
+  }
+  .splide-controls {
+    display: none;
+  }
+  #products .product-detail .divider {
+    display: none;
+  }
+  #products .chooser h5 {
+    text-align: center;
+  }
+  #products .product_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+  p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #hero {
+    grid-template-columns: 1fr;
+  }
+  #hero .second-container {
+    display: none !important;
+    justify-content: space-between;
+  }
+  #hero .first-container .heading {
+    padding-top: 30px;
+  }
+  #hero .first-container .wrapper .heading {
+    margin-block-start: 0px;
+  }
+  .search-bar {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .search-bar button {
+    flex: 5;
+  }
+  .floating-contact {
+    width: 70vw !important;
+    padding: 20px !important;
+  }
+  .floating-contact h1 {
+    font-size: 36px !important;
+  }
+  #contact {
+    grid-template-columns: 1fr;
+  }
+  #contact .contact {
+    padding: 5px;
+    width: 100%;
+  }
+  #contact .social-bar {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
