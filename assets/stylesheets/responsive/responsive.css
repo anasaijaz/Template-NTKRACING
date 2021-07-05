@@ -41,6 +41,7 @@
     flex-direction: column;
     height: auto;
     padding-bottom: 30px;
+    position: relative;
   }
   #products .product img {
     width: 80%;
